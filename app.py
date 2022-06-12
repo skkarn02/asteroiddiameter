@@ -222,7 +222,8 @@ if st.button('Calculate Diameter'):
      X_train=X_train.drop(['ma','w','a','per_y','per','n','n_obs_used'],axis=1)
      final_model=pkl.load(open('final_model.pkl', 'rb'))
      pred=final_model.predict(X_train.values)[0][0]
-     st.title("Diameter of asteroid is {} km".format(pred))
+     st.title("Diameter of asteroid is {} km".format(abs(pred)))
+     
 
 
 
