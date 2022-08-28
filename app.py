@@ -13,6 +13,7 @@ import numpy as np
 import pickle as pkl 
 st.title("ASTEROID DIAMETER PREDICTION")
 st.write("Measuring diameter of asteroids is very hard and complicated process 😫 . Machine learning comes to rescue i just need some parameters of asteroids and i will predict diameter of asteroid for you !!! 😍 .I know most of you are not scientists don't worry i will provide you a range for all the features if you don't know you can choose from it .")
+st.markdown("Blog :- For Detailed explanation for this project from end to end kindly check my blog on this   [link](https://medium.com/@skkarn0207/asteroid-diameter-prediction-dd3da9bfc0bc)")
 #Eccentricity
 e=st.number_input("Eccentricity of elliptical path of asteroid . Range(0.00-0.98)")
 #Inclination with respect to x-y plane
